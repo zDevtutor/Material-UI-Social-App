@@ -8,7 +8,7 @@ import Rightbar from './components/Rightbar';
 import Feed from './components/Feed';
 
 function App() {
-	const [mode, setMode] = useState('dark');
+	const [mode, setMode] = useState('light');
 
 	const theme = createTheme({
 		palette: {
